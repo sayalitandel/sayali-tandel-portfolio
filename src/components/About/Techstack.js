@@ -14,7 +14,7 @@ import {
 
 } from "react-icons/di";
 import {
-  SiIos, 
+  SiNextdotjs, 
 } from "react-icons/si";
 
 function Techstack() {
@@ -42,7 +42,7 @@ function Techstack() {
         <DiMysql color="white"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIos color="white"/>
+        <SiNextdotjs color="white"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiSpark color="white"/>
