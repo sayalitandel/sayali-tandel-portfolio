@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
-import xoriant from '../../Assets/xoriant.png';
-import amazon from '../../Assets/amazon.png';
-import tacto from '../../Assets/tacto.png';
+import jobt from '../../Assets/jobt.png';
+import bme from '../../Assets/bme.png';
+import fynt from '../../Assets/fynt.jpeg';
 import * as React from 'react';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -17,7 +17,7 @@ export default function OppositeContentTimeline() {
         <Timeline position="alternate">
             <TimelineItem>
                 <TimelineOppositeContent color="white" style={{fontWeight: 'bold'}}>
-                    
+                    January 2024- March 2024
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot />
@@ -27,14 +27,14 @@ export default function OppositeContentTimeline() {
                     <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={amazon} className="exp-card-img"/>
+                                <Card.Img src={bme} className="exp-card-img"/>
                             </Col>
                             <Col md={8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}}>Software Engineer Intern</Card.Title>
+                                    <Card.Title style={{fontWeight: 'bold'}}>Web Developer</Card.Title>
                                     <Card.Text>
                                     <ul>
-                                        <li>Skills - Java, ReactJs, Glue, Cloud Formation, Step Function, Lambda Functions, S3, DynamoDB</li>
+                                        <li>Skills - JavaScript, TypeScript, Bootstrap, Wordpress, Selenium</li>
                                         </ul>                                    </Card.Text>
                                 </Card.Body>
                             </Col>
@@ -43,7 +43,9 @@ export default function OppositeContentTimeline() {
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
-               
+                <TimelineOppositeContent color="white" style={{ fontWeight: 'bold' }}>
+                    June 2022- November 2023
+                </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
@@ -52,14 +54,14 @@ export default function OppositeContentTimeline() {
                     <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={xoriant} className="exp-card-img"/>
+                                <Card.Img src={jobt} className="exp-card-img"/>
                             </Col>
                             <Col md={8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}} >Associate Software Engineer</Card.Title>
+                                    <Card.Title style={{fontWeight: 'bold'}} >Software Engineer</Card.Title>
                                     <Card.Text>
                                        <ul>
-                                        <li>Skills - Java, C#, AngularJs, Spring Boot, Git, SQL</li>
+                                        <li>Skills - React, Next.js, Jest, GitLab, Postman, AWS Lambda</li>
                                         </ul>
                                     </Card.Text>
                                 </Card.Body>
@@ -70,7 +72,9 @@ export default function OppositeContentTimeline() {
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
-           
+                <TimelineOppositeContent color="white" style={{ fontWeight: 'bold' }}>
+                    September 2019- March 2021
+                </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
@@ -79,13 +83,13 @@ export default function OppositeContentTimeline() {
                     <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={tacto} className="exp-card-img"/>
+                                <Card.Img src={fynt} className="exp-card-img"/>
                             </Col>
                             <Col md={8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}} >Junior Software Engineer</Card.Title>
+                                    <Card.Title style={{fontWeight: 'bold'}} >Associate Software Engineer</Card.Title>
                                     <ul>
-                                        <li>Skills - Python, ReactJS, Docker, Git, MongoDB
+                                        <li>Skills - PHP- Laravel, MySQL, RESTful APIs, OAuth, JWT
                                     </li>
                                         </ul>
                                     
