@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
-import nyuimg from '../../Assets/nyu.jpeg';
+import paceimg from '../../Assets/pace.png';
 import muimg from '../../Assets/mu.webp';
 import * as React from 'react';
 import Timeline from '@mui/lab/Timeline';
@@ -26,15 +26,15 @@ export default function OppositeContentTimeline() {
                     <Card className="education-card-view">
                         <Row>
                             <Col >
-                                <Card.Img className="nyu-card-img" src={nyuimg} />
+                                <Card.Img className="pace-card-img" src={paceimg} />
                             </Col>
                             <Col md= {8}>
                                 <Card.Body>
                                     <Card.Title style={{ fontWeight: 'bold' }}>MS - Computer Science</Card.Title>
                                     <Card.Text>
                                     <ul>
-                                            <li>GPA - 3.8/4.0</li>
-                                            <li>Expected Graduation - May 2023</li>
+                                            <li>GPA - 3.9/4.0</li>
+                                            <li>TA for 'Web Development' course</li>
                                         </ul>    
                                     </Card.Text>
                                 </Card.Body>
@@ -45,7 +45,7 @@ export default function OppositeContentTimeline() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineOppositeContent color="white" style={{ fontWeight: 'bold' }}>
-                    2016-2020
+                    2015-2019
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot />
@@ -62,8 +62,8 @@ export default function OppositeContentTimeline() {
                                     <Card.Title style={{ fontWeight: 'bold' }} >BE - Computer Engineering</Card.Title>
                                     <Card.Text>
                                         <ul>
-                                        <li><span>CGPA - 8.74/10.0</span></li>
-                                        <li>Activities - National Service Scheme</li>
+                                        <li><span>CGPA - 7.0/10.0</span></li>
+                                        <li>'Best Research Paper' Award</li>
                                         </ul>                        
                                     </Card.Text>
                                 </Card.Body>
