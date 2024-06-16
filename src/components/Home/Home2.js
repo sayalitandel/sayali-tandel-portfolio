@@ -70,14 +70,14 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to drop me a mail at <span className="purple">shraddha.iyer98@gmail.com</span> or
-              <span className="purple"> sti5262@nyu.edu</span>
+              Feel free to drop me a mail at <span className="purple">sayalisuniltandel@gmail.com</span> or
+              <span className="purple"> standel2@pace.edu</span>
               <br></br> You can also contact me via the social media handles mentioned below!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/shradhaiyer"
+                  href="https://github.com/sayalitandel"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/shraddha-iyer/"
+                  href="https://www.linkedin.com/in/sayalitandel/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/shraddha.iyerr"
+                  href="https://www.instagram.com/sayalitandel25"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
