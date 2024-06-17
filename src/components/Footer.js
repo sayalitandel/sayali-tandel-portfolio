@@ -22,7 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/shradhaiyer"
+                href="https://github.com/sayalitandel"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/shraddha-iyer"
+                href="https://www.linkedin.com/in/sayalitandel/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/shraddha.iyerr"
+                href="https://www.instagram.com/sayalitandel25"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
