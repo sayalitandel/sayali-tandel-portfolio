@@ -33,7 +33,7 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://shradhaiyer.github.io/Shraddha-Iyer",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
