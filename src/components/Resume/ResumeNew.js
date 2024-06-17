@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Resume_ShraddhaIyer.pdf";
+import pdf from "../../Assets/../Assets/Sayali_Tandel_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,7 +10,7 @@ import ResumeNavbar from './ResumeNavbar';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-"https://docs.google.com/document/d/e/2PACX-1vQxIDDPgqfoTLA01sHfSiDhkuGl3tja7y84TxQrs6j7_rJG1y_EiKGC2id3qvqgluNKOGYW51WAekoG/pub"
+"https://drive.google.com/file/d/1BrNchc6Uqxk_1t-mpCY4UTisU_obV10B/view"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
