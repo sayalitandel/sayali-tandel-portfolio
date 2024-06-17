@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import jupyter from "../../Assets/Projects/jupyter.png";
+import audio from "../../Assets/Projects/audio.png";
+import dailyyou from "../../Assets/Projects/dailyyou.png";
+import medium from "../../Assets/Projects/medium.png";
+import flaunt from "../../Assets/Projects/flaunt.png";
+import flight from "../../Assets/Projects/flight.png";
 import { Element } from "react-scroll";
 function Projects() {
   return (
@@ -24,51 +24,58 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={flaunt}
               isBlog={false}
-              title="Concurreny control and Recovery System"
-              description="A distributed database, complete with multiversion concurrency control, deadlock detection, replication, and
-              failure recovery. "
-              ghLink="https://github.com/shradhaiyer/Concurreny-control-and-recovery"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Skin Disease Detection System"
-              description="An android application that can be accessed anytime and anywhere for instant diagnosis and indicating the probability of skin abnormalities like rosacea, pigmentation, and acne."
-              ghLink="https://github.com/shradhaiyer/CNN--Skin-disease-Classification"
+              title="Flaunt Website"
+              description="Development of a responsive full-stack e-commerce health & wellness website in an Agile environment."
+              ghLink="https://github.com/sayalitandel/Flaunt"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={medium}
               isBlog={false}
-              title="E-Commerce Application"
-              description="An end-to-end ecommerce site developed with MERN Stack"
-              ghLink="https://github.com/shradhaiyer/E-commerce-application/edit/main/Readme.md"
-            />
-          </Col>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Predicting top performing stocks"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Medium.com Clone"
+              description="Creation of a Medium.com-inspired blogging platform with user authentication, post management, and commenting."
+              ghLink="https://github.com/sayalitandel/Medium-Clone"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dailyyou}
               isBlog={false}
-              title="Covid-19 Cases Tracker"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Daily You Mobile Application"
+              description="Development of a cross-platform mobile to-do list app with real-time data synchronization."
+              ghLink="https://github.com/sayalitandel/Daily-You"
             />
-          </Col> */}
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jupyter}
+              isBlog={false}
+              title="Open-Source Contribution- JupyterLab"
+              description="Open-Source Contribution to the JupyterLab to resolve a bug to prevent downgrades."
+              ghLink="https://github.com/sayalitandel/jupyterlab"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={audio}
+              isBlog={false}
+              title="Audio Data Analysis"
+              description="Transformation of audio data to text for high-precision sentiment and gender identification."
+              ghLink="https://github.com/sayalitandel/Audio-Analysis"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flight}
+              isBlog={false}
+              title="Flight Delay Prediction"
+              description="Implementation of flight delay prediction on over 12 million data points."
+              ghLink="https://github.com/sayalitandel/Flight-Delay-Prediction"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

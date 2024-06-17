@@ -14,8 +14,8 @@ function AboutCard() {
             Currently, I am seeking<span className="purple"> new opportunities</span>  as a Computer Science Grad student.  
             <br/>
             I am passionate about building highly scalable, performant applications that tackle real-world challenges.
-            Over the years, I have honed strong <span className="purple">analytical skills</span> developed a deep-seated passion for <span className="purple">problem-solving.</span>
-            To learn more about my professional journey, feel free to connect with me on <a link href ="https://www.linkedin.com/in/sayalitandel/" className="purple">Linkedin</a>or follow me on social media using the handles below.
+            Over the years, I have honed strong <span className="purple">analytical skills</span> developed a deep-seated passion for <span className="purple">problem-solving. </span>
+            To learn more about my professional journey, feel free to connect with me on <a link href ="https://www.linkedin.com/in/sayalitandel/" className="purple">Linkedin</a> or follow me on social media using the handles below.
             <br/>
             </p>
         </blockquote>
