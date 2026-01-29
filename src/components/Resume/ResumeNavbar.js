@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 // import { useRef } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -15,7 +15,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 // import { NavLink } from "react-router-dom";
-import { scroller } from "react-scroll";
+// import { scroller } from "react-scroll";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
