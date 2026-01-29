@@ -10,7 +10,6 @@
     "@mui/lab": "^5.0.0-alpha.120",
     "@mui/material": "^5.11.10",
     "@mui/styles": "^5.11.9",
-    "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -33,7 +32,6 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
