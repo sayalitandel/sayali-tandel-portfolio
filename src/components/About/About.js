@@ -6,7 +6,7 @@ import Aboutcard from "./AboutCard";
 import sayaliImg from "../../Assets/Sayali.jpeg";
 import Toolstack from "./Toolstack";
 import { Element } from "react-scroll";
-import Image from 'react-bootstrap/Image'
+// import Image from 'react-bootstrap/Image'
 import EducationCard from "../Education/EducationCard";
 import ExperienceCard from "../Experience/ExperienceCard";
 import { Avatar } from "@mui/material";

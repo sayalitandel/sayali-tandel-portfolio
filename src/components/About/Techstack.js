@@ -5,11 +5,11 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  // DiMongodb,
   DiPython,
   DiMysql,
   DiJava, 
-  DiScala,
+  // DiScala,
   DiSpark,
 
 } from "react-icons/di";

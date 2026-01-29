@@ -1,19 +1,20 @@
 import React, { useState, useRef } from "react";
+// import { useRef } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Scroll from 'react-scroll'
+// import Scroll from 'react-scroll'
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa"
 import {
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  // AiOutlineFundProjectionScreen,
+  // AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { scroller } from "react-scroll";
 
 function NavBar() {
@@ -28,10 +29,10 @@ function NavBar() {
     }
   }
 
-  function handleScrollClick(id) {
-    updateExpanded(false);
-    scroller.scrollTo(id, {smooth: true,});
-  }
+  // function handleScrollClick(id) {
+  //   updateExpanded(false);
+  //   scroller.scrollTo(id, {smooth: true,});
+  // }
 
   window.addEventListener("scroll", scrollHandler);
 
