@@ -70,8 +70,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to drop me an email at <span className="purple">sayalisuniltandel@gmail.com</span> or
-              <span className="purple"> standel2@pace.edu</span>
+              Feel free to drop me an email at <span className="purple">sayalistandel02@gmail.com</span>
               <br></br> Alternatively, you can reach out to me through the social media handles provided below.
             </p>
             <ul className="home-about-social-links">
